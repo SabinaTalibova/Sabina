@@ -1,61 +1,140 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster'); /*font for header logo*/
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two'); /*font for motto*/
 @import url('https://fonts.googleapis.com/css?family=Raleway'); /*--- Nav Font and paragraph --*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
 
+*{
+   padding: 0;
+   margin: 0;
+   border:0;
+
+}
 html,body{
-    margin: 0;
-    padding: 0;
     height: 100%;
     width: 100%;
-  }
-
+    
+    }
 h2{
-    font-family: 'Lobster';
+    font-family: 'Lobster', sans-serif;
+    font-size: 250%;
+    
 }
 p{
-    font-family: 'Lobster Two';
+    font-family: 'Raleway', sans-serif;
+    font-size: 150%;
+    color:#f5f5f5;
+    margin:auto;
+   
+    line-height: 200%;
+    
+   
 }
-
 .intro{
-    margin: 0;
-    border: 0;
     height: 100%;
     width: 100%;
-    background: url(background.jpg) no-repeat 50% 50%;
+    background: url(Images/background.jpg) no-repeat 50% 50%;
     background-size: cover;
+    display: table;
     top:0;
-    display:table;
     margin: auto;
 }
+header{
+    height: 98px;
+    width:100%;
+    
+}
+.header-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#logo{
+    float: left;
+    color: #f5f5f5;
+    margin: 30px;
+    width: 200px;
+    height: 60px;
+
+    }
+#logo:hover{
+      color:#C3D7DF;
+    
+}
 nav{
-    float: right;
-      
+    float:right;
+    padding: 29px 20px 0px 0px;
 }
 nav ul{
     list-style: none;
- }
-
+}
 nav ul li{
     display: inline-block;
-    padding: 10px;
-    font-size: 140%;
-    font-family: 'Raleway';
-    
-    
+    padding: 15px;
+   
 }
+
 nav ul li a{
     text-decoration: none;
-    color:#000;
+    color: #f5f5f5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 150%;
 }
+
 nav ul li a:hover{
-    text-decoration: underline;
-    color:#f5f5f5;
+    color:#C3D7DF;
+    
 }
-.nav-div{
-    margin:0;
-    padding-right: 30px;
-    padding-top: 0;
+
+article{
+    padding-top: 100px;
+    padding-left: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
